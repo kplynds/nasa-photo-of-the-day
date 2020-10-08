@@ -22,7 +22,7 @@ function App() {
   , [])  
   return (
     <div className="App">
-      <Title titleData = {nasaData.title}/>
+      <Title titleData = {nasaData.title} dateData = {nasaData.date} />
       <Photo photoData = {nasaData.url} />
       <Explanation explanationData = {nasaData.explanation} />
     </div>
